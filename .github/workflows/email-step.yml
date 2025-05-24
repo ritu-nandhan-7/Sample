@@ -1,0 +1,13 @@
+name: EmailStepWorkflow
+
+on:
+  push:
+    branches:
+      - main  # or your default branch
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 24f1001952@ds.study.iitm.ac.in
+        run: echo "Hello, world!"
